@@ -1,0 +1,6 @@
+{{#each photograph in model}}
+  <div class="photograph">
+    <img {{bind-attr src=photograph.imageUrl}}>
+    <p>{{photograph.caption}}</p>
+  </div>
+{{/each}}
